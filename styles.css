@@ -90,3 +90,9 @@ main {
 h1 {
     margin-top: 20px;
 }
+
+.tagline {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+}
