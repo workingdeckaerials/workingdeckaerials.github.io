@@ -1,21 +1,53 @@
+/* Resetting default margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body and general layout */
 body {
-    background: url('images/webmain/ar-iceberg-02-mirror.png') no-repeat center center/cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    min-height: 100vh;  /* Ensures the body takes full height of the viewport */
+    background: url('background.jpg') no-repeat center center/cover;
     color: white;
     font-family: Arial, sans-serif;
 }
 
+/* Main content (centered vertically and horizontally) */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;  /* Ensures the main content takes the remaining space */
+    text-align: center;
+}
+
+/* Tagline styling */
+.tagline {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Logo styling */
+.center-logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust size as needed */
+}
+
+/* Company name styling */
+h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Header and navigation styling */
 header {
     position: absolute;
     top: 0;
@@ -31,88 +63,52 @@ header {
     margin-left: 20px;
 }
 
-nav {
-    position: relative;
-    margin-right: 20px;
-}
-
+/* Navigation menu (dropdown) */
 .menu-btn {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 30px;  /* Larger button for better clickability */
     cursor: pointer;
     color: white;
+    z-index: 2;  /* Make sure it's above the menu */
 }
 
+/* Dropdown Menu */
 .nav-menu {
-    display: none;
+    display: none;  /* Hidden by default */
     position: absolute;
     right: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
     list-style: none;
     padding: 10px;
     border-radius: 5px;
+    margin-top: 10px;
+    z-index: 1;
 }
 
+/* Show the dropdown when hovering or clicking */
+.menu-btn:focus + .nav-menu, 
+.nav-menu:hover {
+    display: block;
+}
+
+/* Style for each list item in the menu */
 .nav-menu li {
     margin: 10px 0;
 }
 
+/* Link styling inside the dropdown */
 .nav-menu a {
     color: white;
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
-.nav-right {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.nav-menu a:hover {
+    text-decoration: underline;
 }
 
-.menu-btn:focus + .nav-menu, .nav-menu:hover {
-    display: block;
-}
-
-main {
-    font-size: 3rem;
-    font-weight: bold;
-    position: relative;
-    top: -10%;
-    text-align: center;
-}
-
-.center-logo {
-    display: block;
-    margin: 0 auto;
-    width: 150px; /* Adjust size as needed */
-}
-
-h1 {
-    margin-top: 20px;
-}
-
-.tagline {
-    font-size: 1.0rem;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;  /* Ensures the body takes full height of the viewport */
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;  /* Ensures the main content takes the remaining space */
-    text-align: center;
-}
-
+/* Footer styling */
 footer {
     background-color: #333;
     color: white;
@@ -123,6 +119,7 @@ footer {
     bottom: 0;
 }
 
+/* Footer links styling */
 .footer-links {
     list-style: none;
     padding: 0;
