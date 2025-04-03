@@ -98,11 +98,18 @@ h1 {
     margin-bottom: 10px;
 }
 
+main {
+    flex-grow: 1;  /* Ensures the main content takes the remaining space */
+}
+
 footer {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
+    width: 100%;  /* Ensures footer spans full width of the screen */
+    position: relative;
+    bottom: 0;
 }
 
 .footer-links {
