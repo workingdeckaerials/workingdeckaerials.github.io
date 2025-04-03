@@ -105,7 +105,12 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;  /* Ensures the main content takes the remaining space */
+    text-align: center;
 }
 
 footer {
