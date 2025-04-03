@@ -94,5 +94,6 @@ h1 {
 .tagline {
     font-size: 1.0rem;
     color: white;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
