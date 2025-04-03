@@ -63,6 +63,12 @@ nav {
     text-decoration: none;
 }
 
+.nav-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 .menu-btn:focus + .nav-menu, .nav-menu:hover {
     display: block;
 }
