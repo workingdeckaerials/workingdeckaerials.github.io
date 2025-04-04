@@ -134,6 +134,8 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;  /* Optional: makes the background fixed during scrolling */
     padding-top: 50px;  /* Adds space above the content */
+    padding-bottom: 20px;  /* Adds a bit of space at the bottom */
+    overflow-x: hidden;  /* Prevent horizontal overflow if background extends */
 }
 
 /* Service item styling */
@@ -196,11 +198,13 @@ footer {
     background-color: #333;
     color: white;
     padding: 5px;
+    text-align: center;
     width: 100%;
-    display: flex;
     justify-content: space-between;  /* This will space out the logo and links */
     align-items: center;  /* Vertically center the content */
     position: relative;
+    bottom: 0;
+    margin-top: 50px; 
 }
 
 /* Footer links styling */
