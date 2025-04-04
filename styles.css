@@ -23,6 +23,7 @@ main {
     align-items: center;
     flex-grow: 1;  /* Ensures the main content takes the remaining space */
     text-align: center;
+    transform: translateY(-10%); /* Shift everything up by 10% */
 }
 
 /* Tagline styling */
