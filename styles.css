@@ -159,16 +159,20 @@ footer {
     background-color: #333;
     color: white;
     padding: 20px;
-    text-align: center;
-    width: 100%;  /* Ensures footer spans full width of the screen */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  /* This will space out the logo and links */
+    align-items: center;  /* Vertically center the content */
     position: relative;
-    bottom: 0;
 }
 
 /* Footer links styling */
 .footer-links {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;  /* Keep the links centered */
+    flex-grow: 1;  /* This makes the links take up the remaining space */
 }
 
 .footer-links li {
