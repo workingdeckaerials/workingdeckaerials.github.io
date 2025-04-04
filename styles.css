@@ -161,7 +161,6 @@ header {
     text-align: center;
     max-height: 80vh;  /* Limit the height to 80% of the viewport */
     overflow-y: auto;  /* Enable scrolling if content overflows */
-    padding-top: 50px;
 }
 
 /* Title inside the overlay */
@@ -197,6 +196,7 @@ footer {
     justify-content: space-between;  /* This will space out the logo and links */
     align-items: center;  /* Vertically center the content */
     position: relative;
+    flex-shrink: 0;
 }
 
 /* Footer links styling */
