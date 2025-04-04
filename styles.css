@@ -161,12 +161,12 @@ header {
 }
 
 .contact-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-top: 20px;
+    width: 100%;  /* Make image responsive */
+    max-width: 500px;  /* Maximum width for images */
+    height: auto;  /* Maintain aspect ratio */
+    margin: 20px auto;  /* Adds space above and below the image */
     display: block;  /* Ensures image is centered */
-    border-radius: 10px;
+    border-radius: 10px;  /* Optional: rounded corners */
 }
 
 /* Semi-transparent grey box */
