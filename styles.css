@@ -127,7 +127,7 @@ header {
     justify-content: center;
     align-items: center;  /* Align at the top to avoid clipping */
     flex-grow: 1;
-    min-height: 100vh;
+    min-height: 80vh;
     padding-top: 50px;  /* Adds space above the content */
 }
 
@@ -156,10 +156,10 @@ header {
     background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent grey */
     padding: 30px;
     border-radius: 10px;
-    width: 80%;  /* Adjust the width as needed */
+    width: 90%;  /* Adjust the width as needed */
     max-width: 800px;  /* Maximum width for readability */
     text-align: center;
-    max-height: 80vh;  /* Limit the height to 80% of the viewport */
+    max-height: 60vh;  /* Limit the height to 80% of the viewport */
     overflow-y: auto;  /* Enable scrolling if content overflows */
 }
 
