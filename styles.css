@@ -125,7 +125,7 @@ header {
 .services-main {
     display: flex;
     justify-content: center;
-    align-items: flex-start;  /* Align at the top to avoid clipping */
+    align-items: center;  /* Align at the top to avoid clipping */
     flex-grow: 1;
     height: 100%;
     background-image: url('images/webmain/ar-iceberg-02-mirror.png');  /* Add the background image */
