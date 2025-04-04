@@ -112,6 +112,36 @@ header {
     text-decoration: underline;
 }
 
+/* Main content (centered vertically and horizontally) for the about page */
+.about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+}
+
+/* Semi-transparent grey box */
+.content-overlay {
+    background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent grey */
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;  /* Adjust the width as needed */
+    max-width: 800px;  /* Maximum width for readability */
+    text-align: center;
+}
+
+/* Title inside the overlay */
+.content-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Text inside the overlay */
+.content-overlay p {
+    font-size: 1.2rem;
+}
+
 /* Footer styling */
 footer {
     background-color: #333;
