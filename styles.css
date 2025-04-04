@@ -127,10 +127,11 @@ header {
     justify-content: center;
     align-items: center;  /* Align at the top to avoid clipping */
     flex-grow: 1;
-    height: 100%;
+    min-height: 100vh;
     background-image: url('images/webmain/ar-iceberg-02-mirror.png');  /* Add the background image */
     background-size: cover;  /* Ensures the background covers the entire page */
     background-position: center;  /* Center the background image */
+    background-repeat: no-repeat;
     background-attachment: fixed;  /* Optional: makes the background fixed during scrolling */
     padding-top: 50px;  /* Adds space above the content */
 }
