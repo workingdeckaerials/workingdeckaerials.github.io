@@ -128,6 +128,10 @@ header {
     align-items: center;
     flex-grow: 1;
     height: 100%;
+    background-image: url('images/webmain/ar-iceberg-02-mirror.png');  /* Add the background image */
+    background-size: cover;  /* Ensures the background covers the entire page */
+    background-position: center;  /* Center the background image */
+    background-attachment: fixed;  /* Optional: makes the background fixed during scrolling */
 }
 
 /* Service item styling */
