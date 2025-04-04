@@ -125,7 +125,7 @@ header {
 .services-main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;  /* Align at the top to avoid clipping */
     flex-grow: 1;
     height: 100%;
     background-image: url('images/webmain/ar-iceberg-02-mirror.png');  /* Add the background image */
@@ -145,7 +145,7 @@ header {
     width: 100%;  /* Make image responsive */
     max-width: 500px;  /* Maximum width for images */
     height: auto;  /* Maintain aspect ratio */
-    margin: 20px 0;  /* Adds space above and below the image */
+    margin: 20px auto;  /* Adds space above and below the image */
     display: block;  /* Ensures image is centered */
     border-radius: 10px;  /* Optional: rounded corners */
 }
