@@ -151,6 +151,24 @@ header {
     font-size: 1.8rem;
     margin-top: 20px;
 }
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.contact-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+    display: block;  /* Ensures image is centered */
+    border-radius: 10px;
+}
+
 /* Semi-transparent grey box */
 .content-overlay {
     background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent grey */
