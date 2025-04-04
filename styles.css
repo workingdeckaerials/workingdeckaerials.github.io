@@ -159,7 +159,7 @@ header {
     width: 90%;  /* Adjust the width as needed */
     max-width: 800px;  /* Maximum width for readability */
     text-align: center;
-    max-height: 60vh;  /* Limit the height to 80% of the viewport */
+    max-height: 80vh;  /* Limit the height to 80% of the viewport */
     overflow-y: auto;  /* Enable scrolling if content overflows */
 }
 
