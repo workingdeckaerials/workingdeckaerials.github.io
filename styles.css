@@ -185,3 +185,10 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
+/* Footer logo styling */
+.footer-logo img {
+    width: 40px;   /* Adjust the size of the logo */
+    height: auto;
+    margin-left: 20px;  /* Adds some space between the logo and the left side */
+}
