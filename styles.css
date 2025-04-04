@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;  /* Ensures the body takes full height of the viewport */
-    background: url('/images/webmain/ar-iceberg-02-mirror.png') no-repeat center center/cover;
+    background: url('images/webmain/ar-iceberg-02-mirror.png') no-repeat center center/cover;
     color: white;
     font-family: Arial, sans-serif;
 }
