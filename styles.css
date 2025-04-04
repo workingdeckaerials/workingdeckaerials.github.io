@@ -121,6 +121,35 @@ header {
     height: 100%;
 }
 
+/* Main content (centered vertically and horizontally) for the services page */
+.services-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+}
+
+/* Service item styling */
+.service-item {
+    margin-bottom: 30px;  /* Adds space between each service item */
+}
+
+/* Service image styling */
+.service-image {
+    width: 100%;  /* Make image responsive */
+    max-width: 500px;  /* Maximum width for images */
+    height: auto;  /* Maintain aspect ratio */
+    margin: 20px 0;  /* Adds space above and below the image */
+    display: block;  /* Ensures image is centered */
+    border-radius: 10px;  /* Optional: rounded corners */
+}
+
+/* Optional: Make the service title more prominent */
+.service-item h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
 /* Semi-transparent grey box */
 .content-overlay {
     background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent grey */
