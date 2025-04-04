@@ -56,6 +56,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    z-index: 1;
 }
 
 .logo {
@@ -63,14 +64,16 @@ header {
     margin-left: 20px;
 }
 
-/* Navigation menu (dropdown) */
+/* Navigation button (menu) stays on the right */
 .menu-btn {
     background: none;
     border: none;
     font-size: 30px;  /* Larger button for better clickability */
     cursor: pointer;
     color: white;
-    z-index: 2;  /* Make sure it's above the menu */
+    position: absolute;
+    right: 20px;  /* Align button to the right */
+    z-index: 2;  /* Ensure it's above the menu */
 }
 
 /* Dropdown Menu */
