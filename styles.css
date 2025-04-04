@@ -142,6 +142,18 @@ header {
     font-size: 1.2rem;
 }
 
+/* Centered oval image styling */
+.oval-image {
+    width: 200px;    /* Set width of the image */
+    height: 150px;   /* Set height of the image */
+    object-fit: cover;  /* Ensures the image fills the oval shape */
+    border-radius: 50%;  /* Creates the oval effect */
+    margin-top: 20px;   /* Adds some space between the text and the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centers the image horizontally */
+}
+
 /* Footer styling */
 footer {
     background-color: #333;
