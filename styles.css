@@ -127,7 +127,7 @@ header {
     justify-content: center;
     align-items: center;  /* Align at the top to avoid clipping */
     flex-grow: 1;
-    min-height: 200vh;
+    min-height: 105vh;
     background-image: url('images/webmain/ar-iceberg-02-mirror.png');  /* Add the background image */
     background-size: cover;  /* Ensures the background covers the entire page */
     background-position: center;  /* Center the background image */
