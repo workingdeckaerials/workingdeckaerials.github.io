@@ -158,7 +158,7 @@ header {
 footer {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 5px;
     width: 100%;
     display: flex;
     justify-content: space-between;  /* This will space out the logo and links */
@@ -192,7 +192,7 @@ footer {
 
 /* Footer logo styling */
 .footer-logo img {
-    width: 40px;   /* Adjust the size of the logo */
+    width: 60px;   /* Adjust the size of the logo */
     height: auto;
     margin-left: 20px;  /* Adds some space between the logo and the left side */
 }
