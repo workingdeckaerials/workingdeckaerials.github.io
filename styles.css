@@ -161,6 +161,7 @@ header {
     text-align: center;
     max-height: 80vh;  /* Limit the height to 80% of the viewport */
     overflow-y: auto;  /* Enable scrolling if content overflows */
+    padding-top: 50px;
 }
 
 /* Title inside the overlay */
