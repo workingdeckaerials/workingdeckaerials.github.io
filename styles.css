@@ -125,10 +125,10 @@ header {
 .services-main {
     display: flex;
     justify-content: center;
-    align-items: flex-start;  /* Change from center to flex-start to avoid cutoffs */
+    align-items: center;
     flex-grow: 1;
-    height: 100vh;  /* Ensure full viewport height */
-    background-image: url('path/to/your/background-image.jpg');  /* Add the background image */
+    height: 100%;
+    background-image: url('images/webmain/ar-iceberg-02-mirror.png');  /* Add the background image */
     background-size: cover;  /* Ensures the background covers the entire page */
     background-position: center;  /* Center the background image */
     background-attachment: fixed;  /* Optional: makes the background fixed during scrolling */
@@ -163,6 +163,8 @@ header {
     width: 80%;  /* Adjust the width as needed */
     max-width: 800px;  /* Maximum width for readability */
     text-align: center;
+    max-height: 80vh;  /* Limit the height to 80% of the viewport */
+    overflow-y: auto;  /* Enable scrolling if content overflows */
 }
 
 /* Title inside the overlay */
